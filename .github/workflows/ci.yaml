@@ -29,6 +29,6 @@ jobs:
 
       - name: run pipeline
         env:
-          capstone: ${{ secrets.capstone }}
+          tokenversion2: ${{ secrets.tokenversion2 }}
         run: |
           dvc repro
